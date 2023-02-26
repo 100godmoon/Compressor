@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enter Message</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/4b7789e3a6.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script src="script.js"></script>
+	<img src="C:\Users\saurabh\Desktop\projectHuff\back1.png" alt="background image" class="back"> 
+	 <div class="compressor">
+        <h1 class="chead">COMPRESSOR</h1>
+        <h4 class="Emess">Enter Data</h4>
+		<input type="text" id="input-box" name="input-box">
+		<button type="button" onclick="displayEncodedText()">Submit</button>
+        <h4 class="Dmess">Compressed Data</h4> 
+		<div class="output">
+			<p id="output-text"></p>
+		</div>
+	 </div>
+     <div class="decompressor">
+		<h1 class="dhead">DE-COMPRESSOR</h1>
+		<h4 class="Emess">Enter Compressed Data</h4>
+		<input type="text" id="dInput-box" name="dInput-box">
+		<button type="button" onclick="displayDecodedText()">Submit</button>
+        <h4 class="Dmess">De-Compressed Data</h4> 
+
+		<div class="output">
+			<p id="dOutput-text"></p>
+		</div>
+	 </div>
+</body>
+</html>
